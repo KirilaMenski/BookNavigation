@@ -164,6 +164,7 @@ public class BookController {
 		return ""+rating;
 	}
 
+	//TODO
 	private void addBookCitationsLink() throws SQLException {
 		LinkBookCitations link = new LinkBookCitations();
 		List<Citation> citations = citationService.getAllCitation();
